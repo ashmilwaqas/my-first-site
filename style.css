@@ -1,5 +1,17 @@
+*{
+  margin: 0px; 
+  padding: 0px;
+  box-sizing: border-box;
+}
+a, button{
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
 body {
-    background-color: lightgray;
+    background-color: rgb(253, 0, 0);
     font-family: Arial;
     text-align: center;
     display: flex;
@@ -26,7 +38,6 @@ body {
       background: rgb(28, 184, 65);
       padding: 10px;
       outline: none;
-      cursor: pointer;
   }
   
   button:hover {
